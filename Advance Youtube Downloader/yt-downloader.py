@@ -68,7 +68,7 @@ class YoutubeDownloader():
                                 self.root = tk.Tk()
                                 self.root.geometry('300x150')
                                 self.root.maxsize(300,150)
-                                self.root.minsize(300,150)
+                                self.root.minsize(300,150)  # .resizable(False,False)
                                 self.root.title('Video Dowloading')
                                 self.root['bg'] = "white"
 
